@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World - Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Image */
+        .hero {
+            background-image: url('https://example.com/hero-image.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        /* Featured Destinations */
+        .destinations {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .destinations h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .destinations .destination {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .destinations img {
+            width: 100%;
+            height: auto;
+        }
+
+        .destinations h3 {
+            margin: 0.5rem 0;
+        }
+
+        .destinations p {
+            padding: 0 1rem 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Discover Your Next Adventure</h1>
+    </div>
+
+    <!-- Featured Destinations -->
+    <div class="destinations" id="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+            <img src="https://example.com/destination1.jpg" alt="Destination 1">
+            <h3>Paris, France</h3>
+            <p>Explore the city of love and lights.</p>
+        </div>
+        <div class="destination">
+            <img src="https://example.com/destination2.jpg" alt="Destination 2">
+            <h3>Bali, Indonesia</h3>
+            <p>Experience the serene beaches and vibrant culture.</p>
+        </div>
+        <div class="destination">
+            <img src="https://example.com/destination3.jpg" alt="Destination 3">
+            <h3>Kyoto, Japan</h3>
+            <p>Discover the ancient temples and beautiful gardens.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Explore the World. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
